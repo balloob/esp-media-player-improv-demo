@@ -1,0 +1,12 @@
+substitutions:
+  name: "music-dashboard"
+  friendly_name: "Music Dashboard"
+
+packages:
+  music_dashboard:
+    url: https://github.com/jtenniswood/esphome-media-player
+    files: [devices/guition-esp32-s3-4848s040/packages.yaml]
+    ref: main
+    refresh: 1s
+
+improv_serial:
