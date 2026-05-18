@@ -45,6 +45,7 @@ jobs:
       - name: Build ESP Web Tools site
         run: |
           uvx ewt-gen music-dashboard.yaml \
+            --chip-family esp32-s3 \
             --title "Music Dashboard" \
             --publish-url "${{ steps.version.outputs.publish_url }}" \
             --fw-version "${{ steps.version.outputs.version }}" \
