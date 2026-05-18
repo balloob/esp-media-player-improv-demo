@@ -9,4 +9,9 @@ packages:
     ref: main
     refresh: 1s
 
+# Guition ESP32-S3 4848S040 - 4-inch, 480x480 square display.
+# Declared here so ewt-gen can detect the chip family; merges with the package.
+esp32:
+  variant: esp32s3
+
 improv_serial:
