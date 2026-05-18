@@ -41,7 +41,7 @@ jobs:
 
       - name: Build ESP Web Tools site
         run: |
-          uvx ewt-gen@1.4.3 music-dashboard.yaml \
+          uvx ewt-gen music-dashboard.yaml \
             --title "Music Dashboard" \
             --fw-version "${{ steps.version.outputs.version }}" \
             -o _site/
